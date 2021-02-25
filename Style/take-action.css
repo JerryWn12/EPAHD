@@ -1,0 +1,57 @@
+@import "./reset.css";
+
+@font-face {
+  font-family: "iconfont"; /* project id 2353646 */
+  src: url("https://at.alicdn.com/t/font_2353646_7v7ggdwl4h.eot");
+  src: url("https://at.alicdn.com/t/font_2353646_7v7ggdwl4h.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://at.alicdn.com/t/font_2353646_7v7ggdwl4h.woff2") format("woff2"),
+    url("https://at.alicdn.com/t/font_2353646_7v7ggdwl4h.woff") format("woff"),
+    url("https://at.alicdn.com/t/font_2353646_7v7ggdwl4h.ttf")
+      format("truetype"),
+    url("https://at.alicdn.com/t/font_2353646_7v7ggdwl4h.svg#iconfont")
+      format("svg");
+}
+
+.iconfont {
+  font-family: iconfont;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  padding: 100px 0;
+  font-family: serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  width: 820px;
+  margin: 0 auto;
+}
+
+ul li {
+  float: left;
+  font-size: 25px;
+  margin: 20px 30px;
+  border: 2px solid;
+  border-radius: 35px;
+  overflow: hidden;
+  color: #3a5a40;
+}
+
+ul li a {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 30px;
+}
+
+ul li a .iconfont {
+  margin: 0 12px 0 -5px;
+}

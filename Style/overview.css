@@ -1,0 +1,75 @@
+@import "./reset.css";
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  padding: 100px 0;
+  font-family: serif;
+}
+
+article section {
+  margin-bottom: 140px;
+  width: 100%;
+}
+
+article {
+  width: 75%;
+  margin: 0 auto;
+}
+
+article section aside {
+  width: 235px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+article section aside .img-desc {
+  font-size: 15px;
+  text-align: center;
+}
+
+article section:nth-child(2n) aside {
+  float: right;
+  margin-right: 0;
+  margin-left: 50px;
+}
+
+article aside img {
+  width: 100%;
+}
+
+article p {
+  font-size: 22px;
+  line-height: 30px;
+  text-indent: 2em;
+  padding: 5px 0;
+  box-sizing: border-box;
+}
+
+article section .section {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin-top: 0;
+  vertical-align: top;
+}
+
+article section .section .figure {
+  font-weight: bold;
+  font-size: 30px;
+  font-style: italic;
+}
+
+article section .section p {
+  font-size: 18px;
+  line-height: 22px;
+  text-indent: 0;
+  padding: 20px;
+}

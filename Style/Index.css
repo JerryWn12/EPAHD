@@ -1,0 +1,76 @@
+@import "./reset.css";
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bg-main img {
+  position: absolute;
+  width: 100%;
+  margin-top: -200px;
+  filter: brightness(80%);
+  z-index: -1;
+}
+
+.cont-main {
+  margin-top: 200px;
+}
+
+.cont-main h1 {
+  color: #fff;
+  font-size: 30px;
+  font-family: serif;
+  line-height: 40px;
+  text-align: center;
+  opacity: 0;
+}
+
+.cont-main h1 span:nth-child(2) {
+  display: block;
+  font-size: 20px;
+  margin-top: -5px;
+}
+
+.cont-main h1 span:nth-child(3) {
+  font-size: 45px;
+}
+
+.btns {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 100px;
+  width: 440px;
+  margin: 100px auto;
+  cursor: default;
+}
+
+.btns > div {
+  display: inline-block;
+  margin: 0 30px;
+  width: 80px;
+  position: relative;
+  opacity: 0;
+}
+
+.btns div .underline {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  border-bottom: 2px solid;
+  top: 5px;
+  z-index: -1;
+}
+
+.btns div .svg {
+  position: absolute;
+  display: inline-block;
+  right: -20px;
+  top: 1.5px;
+  /* border-left: 20px solid transparent; */
+  z-index: -1;
+}
+
+.btns div .svg img {
+  width: 15px;
+}

@@ -1,0 +1,48 @@
+@import "./reset.css";
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  padding: 100px 0;
+  font-family: serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.container .section {
+  width: 240px;
+  height: 160px;
+  margin: 0 20px;
+  float: left;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.container .section .text {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 68px;
+  color: #fff;
+}
+
+.container .section .bg {
+  margin-top: -92px;
+  position: absolute;
+  z-index: -1;
+}
+
+.container .section .bg video {
+  width: 100%;
+  filter: brightness(60%);
+}

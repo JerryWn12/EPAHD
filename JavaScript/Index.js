@@ -1,3 +1,7 @@
+$("footer").css("margin-top", document.body.clientWidth / 1.5 - 440);
+window.onresize = function () {
+  $("footer").css("margin-top", document.body.clientWidth / 1.5 - 440);
+};
 $(".btns .txt").mouseover(function () {
   var el = $(this).siblings(".svg").get(0);
   anime({

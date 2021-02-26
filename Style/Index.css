@@ -80,7 +80,8 @@ a {
 }
 
 footer {
-  height: 100px;
+  margin-top: 400px;
+  height: 150px;
   border: 1px solid #333;
   background-color: #333;
 }
@@ -90,8 +91,10 @@ footer .footer {
 }
 
 footer .footer p {
+  font-size: 15px;
+  color: #ddd;
   text-align: center;
-  line-height: 22px;
+  line-height: 25px;
 }
 footer .footer p a:hover {
   text-decoration: underline;
